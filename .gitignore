@@ -143,3 +143,16 @@ dist
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 .vite/
+
+# Build output
+dist/
+build/
+
+# Database
+*.db
+*.db-journal
+prisma/dev.db
+
+# Editor/OS
+.DS_Store
+.vscode/
